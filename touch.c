@@ -7,7 +7,8 @@ double sub(double x , double y){
 	return x-y;
 }
 double div(double x, double y){
-	return x/y;
+	if(y!=0) return x/y;
+	else return -1;
 }
 double div(double x, double y){
 	return x*y;
