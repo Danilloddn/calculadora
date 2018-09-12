@@ -18,12 +18,7 @@ int main(){
 	int x,y,op;
 	printf("Digite num x e y:\n");
 	scanf("%d,%d", &x,&y);
-	printf("Entre com a opcao desejada \n
-	1-Soma
-	2-Subtracao
-	3-Divisao
-	4-Multiplicacao
-	/n);
+	printf("Entre com a opcao desejada /n 1-Soma /n 2-Subtracao /n 3-Divisao /n 4-Multiplicacao /n");
 	scanf("%d", op);
 	switch(op){
 	case 1: printf("%d",soma(x,y));
