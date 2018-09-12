@@ -26,13 +26,13 @@ int main(){
 	/n);
 	scanf("%d", op);
 	switch(op){
-	case 1: soma(x,y);
+	case 1: printf("%d",soma(x,y));
 	break;
-	case 2: sub(x, y);
+	case 2: printf("%d",sub(x,y))
 	break;
-	case 3: div(x, y);
+	case 3: printf("%d",div(x,y))
 	break;	
-	case 4: mul(x,y);
+	case 4: printf("%d",mul(x,y))
 	break;
 	return 0;
 }
